@@ -117,6 +117,8 @@
                         "sheets" : "Autoplay Sheets",
                         "friends" : "Friendship Ability",
 			"reset" : "Reset List",
+			"viscape" : "Invisible Cape",
+			"notavail" : "Not Available",
 		},
 		"id" : {
 		        "lang" : "Bahasa",
@@ -236,6 +238,8 @@
                         "sheets" : "Sheet Otomatis",
                         "friends" : "Level Pertemanan",
 			"reset" : "Hapus Daftar",
+			"viscape" : "Jubah Transparan",
+			"notavail" : "Tidak tersedia",
 		},
 		"jp" : {
                         "lang" : "言語",
@@ -355,5 +359,7 @@
                         "sheets" : "自動再生シート",
                         "friends" : "友情能力",
 			"reset" : "リストをリセットする",
+			"viscape" : "見えないマント",
+			"notavail" : "利用不可",
 		}
 	}]
