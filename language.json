@@ -116,6 +116,7 @@
                         "dishud" : "Disable Hud",
                         "sheets" : "Autoplay Sheets",
                         "friends" : "Friendship Ability",
+			"reset" : "Reset List",
 		},
 		"id" : {
 		        "lang" : "Bahasa",
@@ -234,6 +235,7 @@
                         "dishud" : "Nonaktifkan Hud",
                         "sheets" : "Sheet Otomatis",
                         "friends" : "Level Pertemanan",
+			"reset" : "Hapus Daftar",
 		},
 		"jp" : {
                         "lang" : "言語",
@@ -352,5 +354,6 @@
                         "dishud" : "Hud を無効にする",
                         "sheets" : "自動再生シート",
                         "friends" : "友情能力",
+			"reset" : "リストをリセットする",
 		}
 	}]
