@@ -137,7 +137,7 @@
            end
         avawin = {address=avwin,flags=gg.TYPE_DWORD,name="avatarwing"}
         offsetz.avawin = avawin.address - cpoint
-        capes = avwin - 0x70
+        capes = avawin.address - 0x70
         vcape = {address=capes,flags=gg.TYPE_FLOAT,name="viscape"}
         offsetz.viscape = vcape.address - cpoint
         gg.addListItems({avatarx,avawin})
