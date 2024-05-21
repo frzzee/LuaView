@@ -1,5 +1,3 @@
-local c = {}
-local pointer = 0x00
 
     libhook = function()
         local so = gg.getRangesList("libBootloader.so")[1].start
@@ -23,19 +21,19 @@ local pointer = 0x00
             end
           end
         ranges = gg.getRanges()
-        c.pointer = gg.getResults(1)[1].address
+        cpoint = gg.getResults(1)[1].address
         gg.clearResults()
        
-        gg.searchNumber("0.03333333507~0.033999;1.0F;-1D;1D::269", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, c.pointer, c.pointer + 0x50FFFFF, 0)
+        gg.searchNumber("0.03333333507~0.033999;1.0F;-1D;1D::269", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, cpoint, cpoint + 0x50FFFFF, 0)
         gg.refineNumber("-1", gg.TYPE_DWORD)
             if gg.getResultsCount() == 0 then
                 offsetz.gspd = 0
                 gg.alert(text['fail'])
               end
         gtime = gg.getResults(1)[1].address
-        toaddrs = {address=c.pointer,flags=gg.TYPE_QWORD,name="address"}
+        toaddrs = {address=cpoint,flags=gg.TYPE_QWORD,name="address"}
         spdhck = {address=gtime-0xE8,flags=gg.TYPE_FLOAT,name="speedhack"}
-        offsetz.gspd = spdhck.address - c.pointer
+        offsetz.gspd = spdhck.address - cpoint
         caddr = spdhck.address + 0x1FFFFFF
         vaddr = spdhck.address + patern.rng
         gg.addListItems({toaddrs,spdhck})
@@ -53,7 +51,7 @@ local pointer = 0x00
         end
         daddr = gg.getResults(1)[1].address
         candle = {address=daddr+0x1D4,flags=gg.TYPE_FLOAT,name="candle"}
-        offsetz.candle = candle.address - c.pointer
+        offsetz.candle = candle.address - cpoint
         paddr = daddr + patern.rng
         gg.addListItems({candle})
         gg.clearResults()
@@ -76,7 +74,7 @@ local pointer = 0x00
         end
         emt = gg.getResults(4)[4].address
         emitter = {address=emt+0x8,flags=gg.TYPE_DWORD,name="emitbarn"}
-        offsetz.autofarm = emitter.address - c.pointer
+        offsetz.autofarm = emitter.address - cpoint
         gg.addListItems({emitter})
         gg.clearResults()
       end
@@ -118,7 +116,7 @@ local pointer = 0x00
         end
         avamod = gg.getResults(1)[1].address
         avatarx = {address=avamod+0x8,flags=gg.TYPE_FLOAT,name="avatarx"}
-        offsetz.avmod = avatarx.address - c.pointer
+        offsetz.avmod = avatarx.address - cpoint
         gg.toast(text['loadpl']..'...')
         
         gg.clearResults()
@@ -137,10 +135,10 @@ local pointer = 0x00
            os.exit()
            end
         avawin = {address=avwin,flags=gg.TYPE_DWORD,name="avatarwing"}
-        offsetz.avawin = avawin.address - c.pointer
+        offsetz.avawin = avawin.address - cpoint
         capes = avwin - 0x70
         vcape = {address=capes,flags=gg.TYPE_FLOAT,name="viscape"}
-        offsetz.viscape = vcape.address - c.pointer
+        offsetz.viscape = vcape.address - cpoint
         gg.addListItems({avatarx,avawin})
         gg.clearResults()
       end
@@ -149,7 +147,7 @@ local pointer = 0x00
         local mp = {}
         gg.clearResults()
         gg.setRanges(ranges)
-        gg.searchNumber("h 52 65 73 6F 75 72 63 65 73 2F 48 61 70 74 69 63", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, c.pointer - 0x50FFFFF, c.pointer, 0)
+        gg.searchNumber("h 52 65 73 6F 75 72 63 65 73 2F 48 61 70 74 69 63", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, cpoint - 0x50FFFFF, cpoint, 0)
         gg.refineNumber(":R", gg.TYPE_BYTE)
         if gg.getResultsCount() == 0 then
             gg.alert(text['fail'])
@@ -171,7 +169,7 @@ local pointer = 0x00
           end
         maps = rsc[1].address + 0x87
         tmp = {address=maps,flags=gg.TYPE_BYTE,name="maps"}
-        offsetz.level = c.pointer - tmp.address
+        offsetz.level = cpoint - tmp.address
         gg.addListItems({tmp})
         gg.clearResults()
       end
@@ -196,7 +194,7 @@ local pointer = 0x00
             portal = {address=ptoptr-0xD0,flags=gg.TYPE_DWORD,name="portal"}
           end
         end
-        offsetz.portal = portal.address - c.pointer
+        offsetz.portal = portal.address - cpoint
         gg.addListItems({portal})
         gg.clearResults()
      end
@@ -206,7 +204,7 @@ local pointer = 0x00
         local day = {}
         gg.clearResults()
         gg.setRanges(ranges)
-        gg.searchNumber("1.0F;1.0F;1D;2D;3D;4D:97", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, c.pointer, c.pointer + 0x1FFFFFF, 0)
+        gg.searchNumber("1.0F;1.0F;1D;2D;3D;4D:97", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, cpoint, cpoint + 0x1FFFFFF, 0)
         if gg.getResultCount() == 0 then
             gg.alert(text['fail']..'\n\n'..text['try'])
           return os.exit();
@@ -232,7 +230,7 @@ local pointer = 0x00
             break
            end
          end
-        offsetz.daily = dailies.address - c.pointer
+        offsetz.daily = dailies.address - cpoint
         cday = quest
         gg.addListItems({dailies})
        end
@@ -241,16 +239,16 @@ local pointer = 0x00
         local pn = {}
         gg.clearResults()
         gg.setRanges(ranges)
-        gg.searchNumber("h 00 40 9C 45 00 00 7A 43 00 00 C8 42",  gg.TYPE_BYTE, false, gg.SIGN_EQUAL, c.pointer, c.pointer + 0xFFFFFFF, 0)
+        gg.searchNumber("h 00 40 9C 45 00 00 7A 43 00 00 C8 42",  gg.TYPE_BYTE, false, gg.SIGN_EQUAL, cpoint, cpoint + 0xFFFFFFF, 0)
         gg.refineNumber(122, gg.TYPE_BYTE)
         if gg.getResultsCount() == 0 then
-            gg.toast(text['fail'])
+            gg.alert(text['fail'])
           return os.exit()
         end
         topn = gg.getResults(gg.getResultsCount())
         plant = topn[1].address + 0x6B42
         splant = {address=plant,flags=gg.TYPE_FLOAT,name="plant"}
-        offsetz.plant = splant.address - c.pointer
+        offsetz.plant = splant.address - cpoint
         gg.addListItems({splant})
         gg.clearResults()
       end
@@ -388,52 +386,6 @@ local pointer = 0x00
         gg.addListItems({cutscene})
         gg.clearResults()
      end
-     
-     
-    dataEncode = function()
-    local jar = {}
-    zone = os.date("*t")
-    for i = 1, 1 do
-        table.insert(jar, {
-            --//file generated by json.lua
-            script = {
-                label = "LazyFarm",
-                code = string.format("%d", info.versionCode),
-                modified = zone['day'] .. '/' .. zone['month'] .. '/' .. zone['year'],
-                author = "akaxel",
-                link = "https://gameguardian.net/forum/profile/1389268-yorrue/",
-            },     
-            game = {
-                package = info.packageName,
-                version = info.versionName,
-                label = info.label .. ' [' ..title.. ']',
-            },
-            offsets = {
-                avmod = "0x" ..string.format("%x", offsetz.avmod),
-                avawin = "0x" ..string.format("%x", offsetz.avawin),
-                daily = "0x" ..string.format("%x", offsetz.daily),
-                level = "0x" ..string.format("%x", offsetz.level),
-                portal = "0x" ..string.format("%x", offsetz.portal),
-                speed = "0x" ..string.format("%x", offsetz.gspd),
-                embarn = "0x" ..string.format("%x", offsetz.autofarm),
-                candle = "0x" ..string.format("%x", offsetz.candle),
-                plant = "0x" ..string.format("%x", offsetz.plant),
-                energy = "0x" ..string.format("%x", offsetz.energy),
-                cloth = "0x" ..string.format("%x", offsetz.cloth),
-                viscape = "0x" ..string.format("%x", offsetz.viscape),
-                cutscene = "0x" ..string.format("%x", offsetz.cutscene),
-            },
-            other = {
-                stringdefs = 'English',
-                daycount = string.format("%d", cday),
-                nativecode = string.format("%d", loc_ranges),
-            }
-        })
-      end
-      jsons = io.open('/sdcard/Android/Akaxel/akx-' .. title .. 'farm.json', 'w')
-      jsons:write(json.encode(jar))
-      jsons:close()
-    end
     
     dataUpdate = function()
         gg.toast(text['hook'])
@@ -459,6 +411,4 @@ local pointer = 0x00
         gg.alert(text['comp']..'\n\n'..text['screst'])
         gg.setVisible(true)
         os.exit();
-    end
-    
-    
+end
