@@ -91,11 +91,11 @@
         toplayer = gg.getResults(1)[1].address
         gg.clearResults()
         
-        if info.packageName == tgc.live then
+        if gg.getTargetInfo().packageName == tgc.live then
             memfrom = toplayer
             memto = toplayer + 0x20000000
         else
-        if info.packageName == tgc.beta then
+        if gg.getTargetInfo().packageName == tgc.beta then
             memfrom = toplayer
             memto = toplayer
           end
@@ -186,11 +186,11 @@
           return os.exit();
         end
         port = gg.getResults(1)[1].address
-        if info.packageName == tgc.live then
+        if gg.getTargetInfo().packageName == tgc.live then
             ptoptr = port - patern.ptr
             portal = {address=ptoptr+0xD0,flags=gg.TYPE_DWORD,name="portal"}
         else
-        if info.packageName == tgc.beta then
+        if gg.getTargetInfo().packageName == tgc.beta then
             ptoptr = port - patern.ptr
             portal = {address=ptoptr-0xD0,flags=gg.TYPE_DWORD,name="portal"}
           end
