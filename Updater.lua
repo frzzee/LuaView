@@ -370,13 +370,13 @@
     skipcutscene = function()
         gg.clearResults()
         gg.setRanges(gg.REGION_C_DATA)
-        gg.searchNumber("h 6B 41 75 74 6F 53 6B 69  70 41 6C 6C 54 69 6D 65  6C 69 6E 65 73", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+        gg.searchNumber("h 6B 41 75 74 6F 53 6B 69 70 41 6C 6C 54 69 6D 65  6C 69 6E 65 73", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
         gg.refineNumber("h 6B", gg.TYPE_BYTE)
         if gg.getResultsCount() == 0 then
             gg.toast(text['fail'])
           return os.exit();
         end
-        cts = gg.getResults(gg.getResultsCount())
+        cts = gg.getResults(1)
         gg.clearResults()
         
         gg.setRanges(gg.REGION_C_BSS)
