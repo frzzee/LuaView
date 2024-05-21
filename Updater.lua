@@ -91,11 +91,11 @@
         toplayer = gg.getResults(1)[1].address
         gg.clearResults()
         
-        if gg.getTargetInfo().packageName == tgc.live then
+        if gg.getTargetInfo().packageName == "com.tgc.sky.android" then
             memfrom = toplayer
             memto = toplayer + 0x20000000
         else
-        if gg.getTargetInfo().packageName == tgc.beta then
+        if gg.getTargetInfo().packageName == "com.tgc.sky.android.test.gold" then
             memfrom = toplayer
             memto = toplayer
           end
@@ -186,11 +186,11 @@
           return os.exit();
         end
         port = gg.getResults(1)[1].address
-        if gg.getTargetInfo().packageName == tgc.live then
+        if gg.getTargetInfo().packageName == "com.tgc.sky.android" then
             ptoptr = port - patern.ptr
             portal = {address=ptoptr+0xD0,flags=gg.TYPE_DWORD,name="portal"}
         else
-        if gg.getTargetInfo().packageName == tgc.beta then
+        if gg.getTargetInfo().packageName == "com.tgc.sky.android.test.gold" then
             ptoptr = port - patern.ptr
             portal = {address=ptoptr-0xD0,flags=gg.TYPE_DWORD,name="portal"}
           end
