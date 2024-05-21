@@ -376,7 +376,7 @@
             gg.toast(text['fail'])
           return os.exit();
         end
-        cts = gg.getResultsCount()
+        cts = gg.getResults(gg.getResultsCount())
         gg.clearResults()
         
         gg.setRanges(gg.REGION_C_BSS)
