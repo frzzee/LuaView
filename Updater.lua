@@ -243,7 +243,7 @@
         gg.searchNumber("h 00 40 9C 45 00 00 7A 43 00 00 C8 42",  gg.TYPE_BYTE, false, gg.SIGN_EQUAL, c.pointer, c.pointer + 0xFFFFFFF, 0)
         gg.refineNumber(122, gg.TYPE_BYTE)
         if gg.getResultsCount() == 0 then
-            gg.alert(text['fail'])
+            --gg.alert(text['fail'])
           return os.exit()
         end
         topn = gg.getResults(gg.getResultsCount())
@@ -260,7 +260,7 @@
         gg.searchNumber("-6250626897976293408", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
         if gg.getResultsCount() == 0 then
             offsetz.cloth = 0x00
-            gg.toast(text['fail'])
+            --gg.toast(text['fail'])
           return
         end
         ch = gg.getResults(2)
@@ -278,7 +278,7 @@
         gg.refineNumber(8.59771529e-21, gg.TYPE_FLOAT)
         if gg.getResultsCount() == 0 then
             offsetz.energy = 0x00
-            gg.toast(text['fail'])
+            --gg.toast(text['fail'])
           return
         end
         avn = gg.getResults(1)[1].address
@@ -295,7 +295,7 @@
         gg.refineNumber("h 6B", gg.TYPE_BYTE)
         if gg.getResultsCount() == 0 then
             offsetz.friends = 0x00
-            gg.toast(text['fail'])
+            --gg.toast(text['fail'])
           return
         end
         fc = gg.getResults(gg.getResultsCount())
@@ -310,7 +310,7 @@
             gg.clearResults()
           else
           offsetz.friends = 0x00
-          gg.alert(text['fail'])
+          --gg.alert(text['fail'])
           os.exit();
         end
       end
@@ -337,7 +337,7 @@
             gg.clearResults()
           else
           offsetz.hud = 0x00
-          gg.toast(text['fail'])
+          --gg.toast(text['fail'])
         end
        end
     
@@ -348,7 +348,7 @@
         gg.refineNumber(":k", gg.TYPE_BYTE)
         if gg.getResultsCount() == 0 then
             offsetz.sheets = 0x00
-            gg.toast(text['fail'])
+            --gg.toast(text['fail'])
           return
         end
         sht = gg.getResults(gg.getResultsCount())
@@ -363,7 +363,7 @@
             gg.clearResults()
          else
          offsetz.sheets = 0x00
-         gg.toast(text['fail'])
+         --gg.toast(text['fail'])
         end
       end
       
@@ -373,7 +373,7 @@
         gg.searchNumber("h 6B 41 75 74 6F 53 6B 69  70 41 6C 6C 54 69 6D 65  6C 69 6E 65 73", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
         gg.refineNumber("h 6B", gg.TYPE_BYTE)
         if gg.getResultsCount() == 0 then
-            gg.toast(text['fail'])
+            --gg.toast(text['fail'])
           return os.exit();
         end
         cts = gg.getResultsCount()
@@ -435,29 +435,29 @@
     end
     
     dataUpdate = function()
-        gg.toast(text['hook'])
+        --gg.toast(text['hook'])
         libhook()
         hookaddress()
-        gg.toast(text['loading'])
+        --gg.toast(text['loading'])
         drawcandle()
-        gg.toast(text['loading'])
+        --gg.toast(text['loading'])
         emitterbarn()
-        gg.toast(text['loading'])
+        --gg.toast(text['loading'])
         avatarmod()
         unlclothes()
         skipcutscene()
         energywng()
-        gg.toast(text['loading'])
+        --gg.toast(text['loading'])
         rendermap()
         getportal()
-        gg.toast(text['loading'])
+        --gg.toast(text['loading'])
         drawplant()
         drawdaily()
         --dataEncode()
         gg.clearResults()
-        gg.alert(text['comp']..'\n\n'..text['screst'])
+        --gg.alert(text['comp']..'\n\n'..text['screst'])
         gg.setVisible(true)
         os.exit();
     end
     
-    dataUpdate();
+    
