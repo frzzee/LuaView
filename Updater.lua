@@ -1,4 +1,5 @@
-
+local c = {}
+local pointer = 0x00
 
     libhook = function()
         local so = gg.getRangesList("libBootloader.so")[1].start
