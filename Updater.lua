@@ -65,15 +65,16 @@
             gg.alert(text['fail'])
           return os.exit()
         end
-        wx = gg.getResults(1)[1].address
+        emt = gg.getResults(1)[1].address + 0xBE3
         gg.clearResults()
+        --[[
         gg.searchNumber("32D;32D;32D;32D::13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, wx, wx + 0x1FFFFF, 0)
         if gg.getResultsCount() == 0 then
             gg.alert(text['fail'])
           return os.exit()
         end
-        emt = gg.getResults(4)[4].address
-        emitter = {address=emt+0x8,flags=gg.TYPE_DWORD,name="emitbarn"}
+        emt = gg.getResults(4)[4].address]]
+        emitter = {address=emt+0x00,flags=gg.TYPE_DWORD,name="emitbarn"}
         offsetz.autofarm = emitter.address - cpoint
         gg.addListItems({emitter})
         gg.clearResults()
