@@ -1,21 +1,3 @@
-offsetz = {
-    autofarm = 0x00,
-    daily = 0x00,
-    avmod = 0x00,
-    avawin = 0x00,
-    gspd = 0x00,
-    level = 0x00,
-    plant = 0x00,
-    candle = 0x00,
-    cloth = 0x00,
-    energy = 0x00,
-    hud = 0x00,
-    sheets = 0x00,
-    friends = 0x00,
-    cutscene = 0x00
-}
-patern = {rng = 0x20000000, rgb = 0x00, ptr = 0x14D5}
-cpoint = 0x00
 
     libhook = function()
         local so = gg.getRangesList("libBootloader.so")[1].start
