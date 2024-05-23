@@ -2323,11 +2323,11 @@ savepos = {
         stringdirect(true);
         copyright = "LazyFarm_live"
         proc = "Live"
-      
+      --[[
         if gg.getFile():match('[^/]+$') ~= copyright..'.lua' then
             pcall({gg.alert("Dont rename the file");gg.setVisible(true);os.exit()})
         end
-        
+        ]]
         if current.package == nil then
             gg.alert(text['wrong'] .. " : \n\n" .. info.packageName .. "")
             gg.setVisible(true)
