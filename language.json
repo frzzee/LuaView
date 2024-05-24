@@ -123,6 +123,8 @@
 			"saveto" : "Save as",
 			"scene" : "Skip Cutscene",
 			"rename" : "Dont rename the file",
+			"autoburn" : "Autoburn",
+			"burn" : "Burning",
 		},
 		"id" : {
 		        "lang" : "Bahasa",
@@ -248,6 +250,8 @@
 			"saveto" : "Disimpan ke",
 			"scene" : "Lewati Video",
 			"rename" : "Jangan rubah nama filenya",
+			"autoburn" : "Bakar Otomatis",
+			"burn" : "Terbakar",
 		},
 		"jp" : {
                         "lang" : "言語",
@@ -373,5 +377,7 @@
 			"saveto" : "名前を付けて保存",
 			"scene" : "カットシーンをスキップする",
 			"rename" : "ファイルの名前を変更しないでください",
+			"autoburn" : "自動書き込み",
+			"burn" : "燃焼",
 		}
 	}]
