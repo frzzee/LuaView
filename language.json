@@ -61,7 +61,7 @@
 			"fast" : "Too Fast",
 			"game" : "Game update",
 			"exp" : "Script expired. update to fix it",
-			"data" : "Data Scan",
+			"data" : "Data preparation",
 			"title" : "Script Title",
 			"stat" : "Scipt Stats",
 			"status" : "Status",
@@ -125,6 +125,8 @@
 			"rename" : "Dont rename the file",
 			"autoburn" : "Burn Candles/Flowers",
 			"burn" : "Burning",
+			"hello" : "Hello User",
+			"userwait" : "May take a while for the first time",
 		},
 		"id" : {
 		        "lang" : "Bahasa",
@@ -188,7 +190,7 @@
 			"fast" : "Terlalu cepat",
 			"game" : "Game Diperbarui",
 			"exp" : "Naskah kadaluarsa. perbarui untuk memperbaikinya",
-			"data" : "Memindai Data",
+			"data" : "Memindai data",
 			"title" : "Judul Naskah",
 			"stat" : "Status Naskah",
 			"status" : "Status",
@@ -252,6 +254,8 @@
 			"rename" : "Jangan rubah nama filenya",
 			"autoburn" : "Bakar Lilin/Bunga",
 			"burn" : "Terbakar",
+			"hello" : "Halo Pengguna",
+			"userwait" : "Mungkin sedikit lama untuk pertama kali",
 		},
 		"jp" : {
                         "lang" : "言語",
@@ -315,7 +319,7 @@
 			"fast" : "速すぎる",
 			"game" : "ゲーム・アップデート",
 			"exp" : "スクリプトが古い. アップデートで修正",
-			"data" : "データスキャン",
+			"data" : "データの準備",
 			"title" : "原稿タイトル",
 			"stat" : "原稿の状態",
 			"status" : "コンディション",
@@ -379,5 +383,7 @@
 			"rename" : "ファイルの名前を変更しないでください",
 			"autoburn" : "キャンドルや花を燃やす",
 			"burn" : "燃焼",
+			"hello" : "こんにちはユーザー",
+			"userwait" : "初めてなので少し時間がかかります",
 		}
 	}]
