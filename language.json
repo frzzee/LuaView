@@ -123,7 +123,7 @@
 			"saveto" : "Save as",
 			"scene" : "Skip Cutscene",
 			"rename" : "Dont rename the file",
-			"autoburn" : "Autoburn",
+			"autoburn" : "Burn Candles/Flowers",
 			"burn" : "Burning",
 		},
 		"id" : {
@@ -250,7 +250,7 @@
 			"saveto" : "Disimpan ke",
 			"scene" : "Lewati Video",
 			"rename" : "Jangan rubah nama filenya",
-			"autoburn" : "Bakar Otomatis",
+			"autoburn" : "Bakar Lilin/Bunga",
 			"burn" : "Terbakar",
 		},
 		"jp" : {
@@ -377,7 +377,7 @@
 			"saveto" : "名前を付けて保存",
 			"scene" : "カットシーンをスキップする",
 			"rename" : "ファイルの名前を変更しないでください",
-			"autoburn" : "自動書き込み",
+			"autoburn" : "キャンドルや花を燃やす",
 			"burn" : "燃焼",
 		}
 	}]
