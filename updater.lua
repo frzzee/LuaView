@@ -52,13 +52,9 @@ patern = {
             dataEncode()
             gg.clearResults()
             
-            local alert = gg.alert(text['comp']..'\n\n'..text['screst'])
-            
-            if alert ~= nil then
-                gg.sleep(800)
-                configuration();
-                else
-                pcall({ gg.setVisible(true);os.exit() })
+            if gg.toast(text['comp']) == gg.sleep(800) then
+                gg.clearResults()
+                -- process resume;
             end
         end
     }
