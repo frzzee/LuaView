@@ -122,6 +122,7 @@
 			"screst" : "Restart the script",
 			"saveto" : "Save as",
 			"scene" : "Skip Cutscene",
+			"rename" : "Dont rename the file",
 		},
 		"id" : {
 		        "lang" : "Bahasa",
@@ -180,7 +181,7 @@
 			"interval" : "Selang Waktu",
 			"clear" : "Semua Kelar",
 			"route" : "Rute tidak ditemukan",
-			"time" : "Waktu yang dibutuhkan",
+			"time" : "Durasi",
 			"slow" : "Terlalu lambat",
 			"fast" : "Terlalu cepat",
 			"game" : "Game Diperbarui",
@@ -246,6 +247,7 @@
 			"screst" : "Mulai ulang naskahnya",
 			"saveto" : "Disimpan ke",
 			"scene" : "Lewati Video",
+			"rename" : "Jangan rubah nama filenya",
 		},
 		"jp" : {
                         "lang" : "言語",
@@ -370,5 +372,6 @@
 			"screst" : "スクリプトを再起動します",
 			"saveto" : "名前を付けて保存",
 			"scene" : "カットシーンをスキップする",
+			"rename" : "ファイルの名前を変更しないでください",
 		}
 	}]
