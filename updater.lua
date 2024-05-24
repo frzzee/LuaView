@@ -3,6 +3,11 @@ base = {
     libgame = "libBootloader.so",
     curgame = gg.getTargetInfo()
 }
+patern = {
+    baseimg = 0x20000000,
+    playerbase = 0x00,
+    baseptr = 0x14D5
+}
     main = {
         lua = function()
             local gameinfo = {}
