@@ -121,6 +121,7 @@
 			"notavail" : "Not Available",
 			"screst" : "Restart the script",
 			"saveto" : "Save as",
+			"scene" : "Skip Cutscene",
 		},
 		"id" : {
 		        "lang" : "Bahasa",
@@ -244,6 +245,7 @@
 			"notavail" : "Tidak tersedia",
 			"screst" : "Mulai ulang naskahnya",
 			"saveto" : "Disimpan ke",
+			"scene" : "Lewati Video",
 		},
 		"jp" : {
                         "lang" : "言語",
@@ -367,5 +369,6 @@
 			"notavail" : "利用不可",
 			"screst" : "スクリプトを再起動します",
 			"saveto" : "名前を付けて保存",
+			"scene" : "カットシーンをスキップする",
 		}
 	}]
