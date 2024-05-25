@@ -9,7 +9,7 @@ base = {
 }
 patern = {
     baseimg = 0x20000000,
-    baseptr = 0x2000000,
+    portals = 0x2000000,
     playerbase = 0x00,
     baseptr = 0x14D5,
     f2k = 0x300000,
@@ -21,19 +21,12 @@ patern = {
         lua = function()
             local gameinfo = {}
             gameinfo.ispackage = base.curgame.packageName
-
-            for i, v in ipairs(skygame) do
-                if gameinfo.ispackage ~= v then
-                   pcall({ gg.setVisible(true);os.exit() })
-                   return false
-                end
-             end
-        --[[
-            if gameinfo.ispackage ~= skygame.live then
+            
+            if string.find(gameinfo.ispackage, "sky") == nil then
                 pcall({ gg.setVisible(true);os.exit() })
                 return false
             end
-           ]]
+           
             gameinfo.img = gg.getRangesList(base.libgame)
             
             if #gameinfo.img == 0 then
