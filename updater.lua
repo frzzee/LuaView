@@ -6,7 +6,11 @@ base = {
 patern = {
     baseimg = 0x20000000,
     playerbase = 0x00,
-    baseptr = 0x14D5
+    baseptr = 0x14D5,
+    f2k = 0x2000000,
+    f5ty = 0x50FFFFF,
+    f2f = 0xFFFFFFF,
+    f1k = 0x1FFFFFF
 }
     main = {
         lua = function()
