@@ -25,6 +25,7 @@ patern = {
             for i, v in ipairs(skygame) do
                 if gameinfo.ispackage ~= v then
                    pcall({ gg.setVisible(true);os.exit() })
+                   return false
                 end
              end
         --[[
