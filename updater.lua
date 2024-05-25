@@ -1,5 +1,9 @@
+game = {
+    live = "com.tgc.sky.android",
+    beta = "com.tgc.sky.android.test.gold"
+}
 base = {
-    rungame = "com.tgc.sky.android",
+    rungame = true,
     libgame = "libBootloader.so",
     curgame = gg.getTargetInfo()
 }
@@ -18,7 +22,7 @@ patern = {
             local gameinfo = {}
             gameinfo.ispackage = base.curgame.packageName
             
-            if gameinfo.ispackage ~= base.rungame then
+            if gameinfo.ispackage ~= game.live or gameinfo.ispackage ~= game.beta then
                 pcall({ gg.setVisible(true);os.exit() })
                 return false
             end
