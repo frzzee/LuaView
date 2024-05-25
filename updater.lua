@@ -40,9 +40,9 @@ patern = {
                     avatarmod();
                     unlclothes();
                     skipcutscene();
-                    autoplays();
-                    disablehud();
-                    rellabilities();
+                    --autoplays();
+                    --disablehud();
+                    --ellabilities();
                     energywng();
                     gg.toast(text['loading']);
                     rendermap();
