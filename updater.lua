@@ -1,4 +1,4 @@
-game = {
+skygame = {
     live = "com.tgc.sky.android",
     beta = "com.tgc.sky.android.test.gold"
 }
@@ -22,7 +22,7 @@ patern = {
             local gameinfo = {}
             gameinfo.ispackage = base.curgame.packageName
             
-            if gameinfo.ispackage ~= game.live or gameinfo.ispackage ~= game.beta then
+            if gameinfo.ispackage ~= skygame.live or gameinfo.ispackage ~= skygame.beta then
                 pcall({ gg.setVisible(true);os.exit() })
                 return false
             end
