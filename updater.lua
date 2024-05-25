@@ -1,6 +1,6 @@
 skygame = {
-    live = "com.tgc.sky.android",
-    beta = "com.tgc.sky.android.test.gold"
+    "com.tgc.sky.android",
+    "com.tgc.sky.android.test.gold"
 }
 base = {
     rungame = true,
@@ -21,12 +21,18 @@ patern = {
         lua = function()
             local gameinfo = {}
             gameinfo.ispackage = base.curgame.packageName
-            
-            if gameinfo.ispackage ~= skygame.live or gameinfo.ispackage ~= skygame.beta then
+
+            for i, v in ipairs(skygame) do
+                if gameinfo.ispackage ~= v then
+                   pcall({ gg.setVisible(true);os.exit() })
+                end
+             end
+        --[[
+            if gameinfo.ispackage ~= skygame.live then
                 pcall({ gg.setVisible(true);os.exit() })
                 return false
             end
-            
+           ]]
             gameinfo.img = gg.getRangesList(base.libgame)
             
             if #gameinfo.img == 0 then
