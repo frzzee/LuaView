@@ -5,6 +5,7 @@ base = {
 }
 patern = {
     baseimg = 0x20000000,
+    baseptr = 0x2000000,
     playerbase = 0x00,
     baseptr = 0x14D5,
     f2k = 0x300000,
