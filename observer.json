@@ -1,5 +1,7 @@
 {
-    "observer": "akaxel",
+    "observer": {
+        "admin": "akaxel"
+    },
     "auth": {
         "vpn": false,
         "proxy": false,
