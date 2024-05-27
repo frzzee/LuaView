@@ -1,0 +1,9 @@
+{
+    "observer": "akaxel",
+    "auth": {
+        "vpn": false,
+        "proxy": false,
+        "tor": false,
+        "relay": false
+    }
+}
