@@ -11,6 +11,7 @@ patern = {
     baseimg = 0x20000000,
     portals = 0x2000000,
     playerbase = 0x00,
+    strangerx = 0x1FFFFF,
     baseptr = 0x14D5,
     f2k = 0x300000,
     f5ty = 0x50FFFFF,
