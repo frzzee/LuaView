@@ -133,6 +133,7 @@
 			"tosp" : "To Spirit",
 			"sptome" : "Spirit To Me",
 			"backtr" : "Return to start pos?",
+			"already" : "You are already there",
 		},
 		"id" : {
 		        "lang" : "Bahasa",
@@ -268,6 +269,7 @@
 			"tosp" : "Menuju Roh",
 			"sptome" : "Panggil Roh",
 			"backtr" : "Kembali ke posisi awal?",
+			"already" : "Anda sudah sampai",
 		},
 		"jp" : {
                         "lang" : "言語",
@@ -403,5 +405,6 @@
 			"tosp" : "精霊たちへ",
 			"sptome" : "精霊のいる場所へ",
 			"backtr" : "開始位置に戻る?",
+			"already" : "あなたはすでにそこにいます",
 		}
 	}]
