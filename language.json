@@ -128,6 +128,11 @@
 			"burn" : "Burning",
 			"hello" : "Hello User",
 			"userwait" : "May take a while for the first time",
+			"sppos" : "Spirit Pos",
+			"nosp" : "No spirits found",
+			"tosp" : "To Spirit",
+			"sptome" : "Spirit To Me",
+			"backtr" : "Return to start pos?",
 		},
 		"id" : {
 		        "lang" : "Bahasa",
@@ -258,6 +263,11 @@
 			"burn" : "Terbakar",
 			"hello" : "Halo Pengguna",
 			"userwait" : "Mungkin sedikit lama untuk pertama kali",
+			"sppos" : "Lokasi Arwah",
+			"nosp" : "Tidak ada arwah yang ditemukan",
+			"tosp" : "Menuju Roh",
+			"sptome" : "Panggil Roh",
+			"backtr" : "Kembali ke posisi awal?",
 		},
 		"jp" : {
                         "lang" : "言語",
@@ -388,5 +398,10 @@
 			"burn" : "燃焼",
 			"hello" : "こんにちはユーザー",
 			"userwait" : "初めてなので少し時間がかかります",
+			"sppos" : "スピリッツの場所",
+			"nosp" : "霊は見つかりませんでした",
+			"tosp" : "精霊たちへ",
+			"sptome" : "精霊のいる場所へ",
+			"backtr" : "開始位置に戻る?",
 		}
 	}]
