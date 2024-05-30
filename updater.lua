@@ -49,6 +49,7 @@ patern = {
                     gg.toast(text['loading']);
                     avatarmod();
                     unlclothes();
+                    camerasystem();
                     skipcutscene();
                     energywng();
                     gg.toast(text['loading']);
