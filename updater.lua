@@ -50,6 +50,7 @@ patern = {
                     avatarmod();
                     unlclothes();
                     windmult();
+                    wallbarrier();
                     gg.toast(text['loading']);
                     camerasystem();
                     skipcutscene();
