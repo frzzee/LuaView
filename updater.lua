@@ -49,6 +49,8 @@ patern = {
                     gg.toast(text['loading']);
                     avatarmod();
                     unlclothes();
+                    windmult();
+                    gg.toast(text['loading']);
                     camerasystem();
                     skipcutscene();
                     energywng();
