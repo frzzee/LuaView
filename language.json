@@ -53,6 +53,7 @@
 			"dead" : "Out of wings",
 			"icon" : "Click GG icon to stop",
 			"click" : "Click GG icon to move",
+			"uncam" : "Click GG icon to back",
 			"accept" : "Accept The Quest",
 			"interval" : "Movement Interval",
 			"clear" : "All Clear",
@@ -134,6 +135,10 @@
 			"sptome" : "Spirit To Me",
 			"backtr" : "Return to start pos?",
 			"already" : "You are already there",
+			"spect" : "Spectate",
+			"wind" : "Remove Wind",
+			"sdist" : "distance",
+			"unit" : "unit",
 		},
 		"id" : {
 		        "lang" : "Bahasa",
@@ -189,6 +194,7 @@
 			"dead" : "Kehabisan Sayap",
 			"icon" : "Klik icon GG untuk berhenti",
 			"click" : "Klik icon GG untuk bergerak",
+			"uncam" : "Klik icon GG untuk Kembali",
 			"accept" : "Ambil Hadiahnya",
 			"interval" : "Selang Waktu",
 			"clear" : "Semua Kelar",
@@ -270,6 +276,10 @@
 			"sptome" : "Panggil Roh",
 			"backtr" : "Kembali ke posisi awal?",
 			"already" : "Anda sudah sampai",
+			"spect" : "Lihat",
+			"wind" : "Hilangkan Angin"
+			"sdist" : "jarak",
+			"unit" : "unit",
 		},
 		"jp" : {
                         "lang" : "言語",
@@ -325,6 +335,7 @@
 			"dead" : "翼の外へ",
 			"icon" : "GGアイコンをクリックして停止する",
 			"click" : "GGアイコンをクリックして移動する",
+			"uncam" : "GG アイコンをクリックして戻る",
 			"accept" : "クエストを受ける",
 			"interval" : "旅行間隔",
 			"clear" : "オールクリア",
@@ -406,5 +417,9 @@
 			"sptome" : "精霊のいる場所へ",
 			"backtr" : "開始位置に戻る?",
 			"already" : "あなたはすでにそこにいます",
+			"spect" : "検査する",
+			"wind" : "風を取り除く",
+			"sdist" : "距離",
+			"unit" : "ユニット",
 		}
 	}]
