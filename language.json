@@ -145,6 +145,12 @@
 			"emenu" : "Entity List",
 			"cwlight" : "Collect Wings",
 			"pclist" : "Player List",
+			"tppl" : "To Player",
+			"hijack" : "Friendship Hijack",
+			"pcarry" : "Player Carry",
+			"plpl" : "Player",
+			"litpl" : "Player must be lit",
+			
 		},
 		"id" : {
 		        "lang" : "Bahasa",
@@ -292,6 +298,11 @@
 			"emenu" : "Daftar Entitas",
 			"cwlight" : "Kumpulkan Sayap",
 			"pclist" : "Daftar Pemain",
+			"tppl" : "Ke Pemain",
+			"hijack" : "Bajak Pertemanan",
+			"pcarry" : "Gendong Pemain",
+			"plpl" : "Pemain",
+			"litpl" : "Pemain harus dinyalakan",
 		},
 		"jp" : {
                         "lang" : "言語",
@@ -439,5 +450,10 @@
 			"emenu" : "エンティティリスト",
 			"cwlight" : "翼を集める",
 			"pclist" : "選手一覧",
+			"tppl" : "プレーヤーに移動",
+			"hijack" : "友情ハイジャック",
+			"pcarry" : "プレーヤーキャリー",
+			"plpl" : "プレーヤー",
+			"litpl" : "プレーヤーが点灯している必要があります",
 		}
 	}]
