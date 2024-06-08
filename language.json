@@ -150,6 +150,9 @@
 			"pcarry" : "Player Carry",
 			"plpl" : "Player",
 			"litpl" : "Player must be lit",
+			"cwlin" : "Collect winglight in",
+			"nwls" : "No winglight at",
+			"obtain" : "Obtained",
 			
 		},
 		"id" : {
@@ -303,6 +306,9 @@
 			"pcarry" : "Gendong Pemain",
 			"plpl" : "Pemain",
 			"litpl" : "Pemain harus dinyalakan",
+			"cwlin" : "Kumpulkan sayap di",
+			"nwls" : "Tidak ada sayap di",
+			"obtain" : "Didapatkan",
 		},
 		"jp" : {
                         "lang" : "言語",
@@ -455,5 +461,8 @@
 			"pcarry" : "プレーヤーキャリー",
 			"plpl" : "プレーヤー",
 			"litpl" : "プレーヤーが点灯している必要があります",
+			"cwlin" : "ウイングライトを集める",
+			"nwls" : "ウィングライトはありません",
+			"obtain" : "取得しました",
 		}
 	}]
