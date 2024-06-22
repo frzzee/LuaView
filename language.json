@@ -1,6 +1,7 @@
 [{
                 "en" : {
                         "lang" : "Language",
+			"sversion" : "Script version outdated",
                         "home" : "Home",
 			"yes" : "Yes",
 			"no" : "No",
@@ -172,6 +173,7 @@
 		},
 		"id" : {
 		        "lang" : "Bahasa",
+			"sversion" : "Versi naskah kadaluarsa",
 		        "home" : "Rumah",
 			"yes" : "Ya",
 			"no" : "Tidak",
@@ -343,6 +345,7 @@
 		},
 		"jp" : {
                         "lang" : "言語",
+			"sversion" : "原稿のバージョンが古い",
                         "home" : "家に帰る",
 			"yes" : "はい",
 			"no" : "いいえ",
