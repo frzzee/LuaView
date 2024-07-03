@@ -1,11 +1,41 @@
 {
-  "en" : {
-    "yes" : "Yes"
-  },
-  "id" : {
-    "yes" : "Ya"
-  },
-  "jp" : {
-    "yes" : "はい"
-  }
+    "en" : {
+        "yes" : "Yes",
+        "no" : "No",
+        "gspeed" : "SpeedHack",
+        "frdaily" : "Daily Quest",
+        "frcandle" : "Collect Candle",
+        "frwing" : "Collect Wing",
+        "crcandle" : "Candle Run",
+        "wingrun" : "Wing Run",
+        "edenrun" : "Eden Ninja",
+        "setting" : "Settings",
+        "exit" : "Exit",
+    },
+    "id" : {
+        "yes" : "Ya",
+        "no" : "Tidak",
+        "gspeed" : "Kecepatan",
+        "frdaily" : "Misi Harian",
+        "frcandle" : "Kumpulkan Lilin",
+        "frwing" : "Kumpulkan Sayap",
+        "crcandle" : "Menuju Lilin",
+        "wingrun" : "Menuju Sayap",
+        "edenrun" : "Ninja Eden",
+        "setting" : "Pengaturan",
+        "exit" : "Keluar",
+    },
+    "id" : {
+        "yes" : "Ya",
+        "no" : "Tidak",
+        "gspeed" : "Kecepatan",
+        "frdaily" : "Misi Harian",
+        "frcandle" : "Kumpulkan Lilin",
+        "frwing" : "Kumpulkan Sayap",
+        "crcandle" : "Menuju Lilin",
+        "wingrun" : "Menuju Sayap",
+        "edenrun" : "Ninja Eden",
+        "setting" : "Pengaturan",
+        "exit" : "Keluar",
+    }
 }
