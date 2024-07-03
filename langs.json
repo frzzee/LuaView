@@ -10,7 +10,7 @@
         "wingrun" : "Wing Run",
         "edenrun" : "Eden Ninja",
         "setting" : "Settings",
-        "exit" : "Exit",
+        "exit" : "Exit"
     },
     "id" : {
         "yes" : "Ya",
@@ -23,7 +23,7 @@
         "wingrun" : "Menuju Sayap",
         "edenrun" : "Ninja Eden",
         "setting" : "Pengaturan",
-        "exit" : "Keluar",
+        "exit" : "Keluar"
     },
     "jp" : {
         "yes" : "Ya",
@@ -36,6 +36,6 @@
         "wingrun" : "Menuju Sayap",
         "edenrun" : "Ninja Eden",
         "setting" : "Pengaturan",
-        "exit" : "Keluar",
+        "exit" : "Keluar"
     }
 }
