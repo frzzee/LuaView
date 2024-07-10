@@ -21,6 +21,7 @@
         "interval" : "Interval",
         "toslow" : "Too Slow",
         "tofast" : "Too Fast",
+        "time" : "Time Cost",
         "route" : "Route not found",
         "gameupdate" : "game update",
         "acceptquest" : "Accept the quest",
@@ -37,6 +38,7 @@
         "burncandle" : "Burn Candle",
         "burnplant" : "Burn Plant",
         "absorbwax" : "Absorb Wax",
+        "language" : "Language",
     },
     "idn" : {
         "yes" : "Ya",
@@ -60,6 +62,7 @@
         "interval" : "Jeda",
         "toslow" : "Terlalu lambat",
         "tofast" : "Terlalu cepat",
+        "time" : "Durasi",
         "route" : "Rute tidak ditemukan",
         "gameupdate" : "permainan diperbarui",
         "acceptquest" : "Ambil Misi",
@@ -76,6 +79,7 @@
         "burncandle" : "Bakar Lilin",
         "burnplant" : "Bakar Tanaman",
         "absorbwax" : "Ambil Wax",
+        "language" : "Bahasa",
     },
     "jpn" : {    
         "yes" : "はい",
@@ -99,6 +103,7 @@
         "interval" : "間隔",
         "toslow" : "遅すぎる",
         "tofast" : "早すぎる",
+        "time" : "間隔",
         "route" : "ルートが見つかりません",
         "gameupdate" : "ゲームのアップデート",
         "acceptquest" : "クエストを受け入れる",
@@ -115,6 +120,7 @@
         "burncandle" : "ろうそくを燃やす",
         "burnplant" : "植物を燃やす",
         "absorbwax" : "ワックスを吸収する",
+        "language" : "言語",
     },
     "chn" : {
         "yes" : "是的",
@@ -138,6 +144,7 @@
         "interval" : "间隔",
         "toslow" : "太慢了",
         "tofast" : "太快",
+        "time" : "持续时间",
         "route" : "未找到路线",
         "gameupdate" : "游戏更新",
         "acceptquest" : "接受任务",
@@ -154,5 +161,6 @@
         "burncandle" : "燃烧蜡烛",
         "burnplant" : "燃烧的植物",
         "absorbwax" : "蜡吸收",
+        "language" : "语言",
     }
 }]
