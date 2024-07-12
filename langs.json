@@ -43,6 +43,7 @@
         "language" : "Language",
         "unchange" : "Unchanged",
         "destroyer" : "Destroy Quest",
+        "cosmetics" : "Cloth & Emote",
     },
     "idn" : {
         "yes" : "Ya",
@@ -88,6 +89,7 @@
         "language" : "Bahasa",
         "unchange" : "Tidak berubah",
         "destroyer" : "Hancurkan Misi",
+        "cosmetics" : "Pakaian & Emoji",
     },
     "jpn" : {    
         "yes" : "はい",
@@ -133,6 +135,7 @@
         "language" : "言語",
         "unchange" : "変更なし",
         "destroyer" : "クエスト破壊",
+        "cosmetics" : "布とエモート",
     },
     "chn" : {
         "yes" : "是的",
@@ -178,5 +181,6 @@
         "language" : "语言",
         "unchange" : "不变",
         "destroyer" : "任务破坏",
+        "cosmetics" : "布料和表情",
     }
 }]
