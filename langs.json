@@ -45,7 +45,7 @@
         "language" : "Language",
         "unchange" : "Unchanged",
         "destroyer" : "Destroy Quest",
-        "cosmetics" : "Cloth & Emote",
+        "cosmetics" : "Clothes & Emote",
     },
     "idn" : {
         "yes" : "Ya",
@@ -141,7 +141,7 @@
         "language" : "言語",
         "unchange" : "変更なし",
         "destroyer" : "クエスト破壊",
-        "cosmetics" : "布とエモート",
+        "cosmetics" : "衣装とエモート",
     },
     "chn" : {
         "yes" : "是的",
@@ -189,6 +189,6 @@
         "language" : "语言",
         "unchange" : "不变",
         "destroyer" : "任务破坏",
-        "cosmetics" : "布料和表情",
+        "cosmetics" : "衣服和表情",
     }
 }]
