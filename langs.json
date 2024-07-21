@@ -39,6 +39,8 @@
         "candlerun" : "Candle Run",
         "wingrun" : "Wing Run",
         "setting" : "Settings",
+        "levels" : "level",
+        "winglights" : "Wing Lights",
         "burncandle" : "Burn Candle",
         "burnplant" : "Burn Plant",
         "absorbwax" : "Absorb Wax",
@@ -46,6 +48,7 @@
         "unchange" : "Unchanged",
         "destroyer" : "Destroy Quest",
         "cosmetics" : "Clothes & Emote",
+        "nowings" : "no winglights here",
     },
     "idn" : {
         "yes" : "Ya",
@@ -87,6 +90,8 @@
         "candlerun" : "Menuju Lilin",
         "wingrun" : "Menuju Sayap",
         "setting" : "Pengaturan",
+        "levels" : "Area",
+        "winglights" : "Sayap Cahaya",
         "burncandle" : "Bakar Lilin",
         "burnplant" : "Bakar Tanaman",
         "absorbwax" : "Ambil Wax",
@@ -94,6 +99,7 @@
         "unchange" : "Tidak berubah",
         "destroyer" : "Hancurkan Misi",
         "cosmetics" : "Pakaian & Ekspresi",
+        "nowings" : "tidak ada sayap cahaya disini",
     },
     "jpn" : {    
         "yes" : "はい",
@@ -135,6 +141,8 @@
         "candlerun" : "キャンドルに行く",
         "wingrun" : "翼に行く",
         "setting" : "設定",
+        "levels" : "地図",
+        "winglights" : "ウィングライト",
         "burncandle" : "ろうそくを燃やす",
         "burnplant" : "植物を燃やす",
         "absorbwax" : "ワックスを吸収する",
@@ -142,6 +150,7 @@
         "unchange" : "変更なし",
         "destroyer" : "クエスト破壊",
         "cosmetics" : "衣装とエモート",
+        "nowings" : "ここにはウィングライトがありません",
     },
     "chn" : {
         "yes" : "是的",
@@ -183,6 +192,8 @@
         "candlerun" : "烛光奔跑",
         "wingrun" : "翼跑",
         "setting" : "布景",
+        "levels" : "地图",
+        "winglights" : "翼灯",
         "burncandle" : "燃烧蜡烛",
         "burnplant" : "燃烧的植物",
         "absorbwax" : "蜡吸收",
@@ -190,5 +201,6 @@
         "unchange" : "不变",
         "destroyer" : "任务破坏",
         "cosmetics" : "衣服和表情",
+        "nowings" : "这里没有机翼灯。",
     }
 }]
