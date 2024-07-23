@@ -40,6 +40,8 @@
         "wingrun" : "Wing Run",
         "setting" : "Settings",
         "levels" : "level",
+        "candlepos" : "Candle Pos",
+        "findcandle" : "Find Candle",
         "winglights" : "Wing Lights",
         "burncandle" : "Burn Candle",
         "burnplant" : "Burn Plant",
@@ -49,6 +51,7 @@
         "destroyer" : "Destroy Quest",
         "cosmetics" : "Clothes & Emote",
         "nowings" : "no winglights here",
+        "nocandle" : "no candles here",
     },
     "idn" : {
         "yes" : "Ya",
@@ -91,6 +94,8 @@
         "wingrun" : "Menuju Sayap",
         "setting" : "Pengaturan",
         "levels" : "Area",
+        "candlepos" : "Kordinat Lilin",
+        "findcandle" : "Temukan Lilin",
         "winglights" : "Sayap Cahaya",
         "burncandle" : "Bakar Lilin",
         "burnplant" : "Bakar Tanaman",
@@ -100,6 +105,7 @@
         "destroyer" : "Hancurkan Misi",
         "cosmetics" : "Pakaian & Ekspresi",
         "nowings" : "tidak ada sayap cahaya disini",
+        "nocandle" : "tidak ada lilin disini",
     },
     "jpn" : {    
         "yes" : "はい",
@@ -142,6 +148,8 @@
         "wingrun" : "翼に行く",
         "setting" : "設定",
         "levels" : "地図",
+        "candlepos" : "ローソクの位置",
+        "findcandle" : "キャンドルを見つける",
         "winglights" : "ウィングライト",
         "burncandle" : "ろうそくを燃やす",
         "burnplant" : "植物を燃やす",
@@ -151,6 +159,7 @@
         "destroyer" : "クエスト破壊",
         "cosmetics" : "衣装とエモート",
         "nowings" : "ここにはウィングライトがありません",
+        "nocandle" : "ここにはキャンドルはありません",
     },
     "chn" : {
         "yes" : "是的",
@@ -193,6 +202,8 @@
         "wingrun" : "翼跑",
         "setting" : "布景",
         "levels" : "地图",
+        "candlepos" : "蜡烛位置",
+        "findcandle" : "找到一支蜡烛",
         "winglights" : "翼灯",
         "burncandle" : "燃烧蜡烛",
         "burnplant" : "燃烧的植物",
@@ -202,5 +213,6 @@
         "destroyer" : "任务破坏",
         "cosmetics" : "衣服和表情",
         "nowings" : "这里没有机翼灯。",
+        "nocandle" : "这里没有蜡烛",
     }
 }]
