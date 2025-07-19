@@ -2,7 +2,7 @@ textDes = [[
 This script is still under development so if there are any errors like ui stuck, force close etc will be fixed later, sooner. (or maybe never cus I'm busy)
 
 About version :
-base game version "Sky 0.29.6".
+base game version "Sky 0.30.0".
 support for other platforms like "Huawei" or other third party apps has not been tested.
 
 ® script by akaxell
@@ -122,7 +122,7 @@ local ios = {
                                 local senrels = getvalues(v_main.pos - 0x20, 32) + 0x260
                                 local exec = {
                                     {address = senrels, flags = 4, value = values, freeze = true},
-                                    {address = senrels + 0x4, flags = 4, value = getvalues(strings + 0x4D8F8, 4), freeze = true}
+                                    {address = senrels + 0x4, flags = 4, value = getvalues(strings + v_patern.player_id, 4), freeze = true}
                                 }
                                 gg.addListItems(exec)
                                 gg.setValues(exec)
@@ -274,7 +274,7 @@ local ios = {
                 onClickListener=function()
                     local runnable = { run = function()
                         local fset = getvalues(v_main.avatar - 0x20, 32) + 0x260
-                        setvalues(fset - 0x80, 4, getvalues(strings + 0x4D8F8, 4), true)
+                        setvalues(fset - 0x80, 4, getvalues(strings + v_patern.player_id, 4), true)
                     end } rx.b(runnable)
                 end;
                 {
@@ -378,7 +378,7 @@ function playerButton(text, strings, panel, mod, params)
             ios.wing.gotoButton("goto", "tpplayer", strings);
             ios.player.sendrel("send", "sendrels", strings, panel, mod, params);
             ios.player.reqrels("request", "requestrel", strings, panel, mod, params);
-            ios.player.copycat("copy", "copycat", strings + 0x7c04);
+            ios.player.copycat("copy", "copycat", strings + v_patern.copycat);
         };
     }
 end
@@ -652,7 +652,7 @@ function switchValue(button, strings, mask, sval, eval, bool)
 end
 
 function support_me()
-    return web().loadUrl("https://sociabuzz.com/akaxell/tribe")
+    return gg.gotoBrowser("https://sociabuzz.com/akaxell/tribe")
 end
 
 function contact_person()
