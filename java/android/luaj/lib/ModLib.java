@@ -109,7 +109,7 @@ public class ModLib extends TwoArgFunction {
                 Object checkuserdata2 = apVar.checkuserdata(2);
                 return (!(checkuserdata instanceof Class) || !(checkuserdata2 instanceof Class)) ? ((checkuserdata instanceof Class) || !(checkuserdata2 instanceof Class)) ? LuaValue.b(checkuserdata.equals(checkuserdata2)) : LuaValue.b(((Class) checkuserdata2).isAssignableFrom(checkuserdata.getClass())) : LuaValue.b(((Class) checkuserdata2).isAssignableFrom((Class) checkuserdata));
             }
-            throw new o("instanceof函数的参数必须两个");
+            throw new o("the instanceof function must have two parameters.");
         }
     }
 
