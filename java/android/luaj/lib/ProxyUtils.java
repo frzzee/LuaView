@@ -116,6 +116,6 @@ public class ProxyUtils {
             ModLib.At(loaded.getName(), CoerceJavaToLua.coerce(loaded));
             return loaded;
         }
-        throw new o("无需要代理的方法");
+        throw new o("no proxy required");
     }
 }
