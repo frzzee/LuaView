@@ -60,7 +60,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.show(obj)消息提示，消息停留时间由显示的消息长短自动判断，消息样式为默认样式。传入一个参数，该参数支持string、其他继承CharSequence的字符序列、其他Object";
+            return "toast.show(obj)Message prompt, the message retention time is automatically determined by the length of the displayed message, and the message style is the default style. Pass in a parameter, which supports string, other character sequences that inherit CharSequence, and other Object";
         }
     }
 
@@ -86,7 +86,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.showShort(obj)短时消息提示，停留时间短，消息样式为默认样式。传入一个参数，该参数支持string、其他继承CharSequence的字符序列、其他Object";
+            return "toast.showShort(obj)Short message prompt, short stay time, message style is default style. Pass in a parameter, which supports string, other character sequences that inherit CharSequence, and other Object";
         }
     }
 
@@ -114,7 +114,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.showLong(obj)长时消息提示，停留时间长，消息样式为默认样式。传入一个参数，该参数支持string、其他继承CharSequence的字符序列、其他Object";
+            return "toast.showLong(obj)Long message prompt, long stay time, the message style is the default style. Pass in a parameter, which supports string, other character sequences that inherit CharSequence, and other Object";
         }
     }
 
@@ -143,7 +143,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.crossPage(obj)跨页面消息提示，将优先使用系统自带消息样式。传入一个参数，该参数支持string、其他继承CharSequence的字符序列、其他Object";
+            return "toast.crossPage(obj)For cross-page message prompts, the system's built-in message style will be used first. Pass in a parameter that supports string, other character sequences that inherit CharSequence, and other Object";
         }
     }
 
@@ -170,7 +170,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.delay(obj,time)延时消息提示，消息样式为默认样式。传入两个参数。第一个参数支持string、其他继承CharSequence的字符序列、其他Object\n第二个参数为延迟时间，单位为毫秒";
+            return "toast.delay(obj,time)Delayed message prompt, the message style is the default style. Two parameters are passed in. The first parameter supports string, other character sequences that inherit CharSequence, and other Objects. The second parameter is the delay time in milliseconds.";
         }
     }
 
@@ -203,7 +203,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.white(obj)白色的消息提示，局部生效。传入一个参数，该参数支持string、其他继承CharSequence的字符序列、其他Object";
+            return "toast.white(obj)A white message prompt is effective locally. Pass in a parameter, which supports string, other character sequences that inherit CharSequence, and other Object";
         }
     }
 
@@ -217,7 +217,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.black(obj)黑色的消息提示，局部生效。传入一个参数，该参数支持string、其他继承CharSequence的字符序列、其他Object";
+            return "toast.black(obj)A black message prompt is effective locally. Pass in a parameter, which supports string, other character sequences that inherit CharSequence, and other Object";
         }
     }
 
@@ -231,7 +231,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.hint(obj)小提示，局部生效。传入一个参数，该参数支持string、其他继承CharSequence的字符序列、其他Object";
+            return "toast.hint(obj)Tips: This is only effective locally. Pass in a parameter that supports string, other character sequences that inherit CharSequence, and other Object";
         }
     }
 
@@ -245,7 +245,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.warn(obj)警告提示，局部生效。传入一个参数，该参数支持string、其他继承CharSequence的字符序列、其他Object";
+            return "toast.warn(obj)Warning, local effect. Pass in a parameter, which supports string, other character sequences that inherit CharSequence, and other Object";
         }
     }
 
@@ -259,7 +259,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.error(obj)错误提示，局部生效。传入一个参数，该参数支持string、其他继承CharSequence的字符序列、其他Object";
+            return "toast.error(obj)Error message, local effect. Pass in a parameter, which supports string, other character sequences that inherit CharSequence, and other Object";
         }
     }
 
@@ -273,7 +273,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.success(obj)成功提示，正确提示，局部生效。传入一个参数，该参数支持string、其他继承CharSequence的字符序列、其他Object";
+            return "toast.success(obj)Success prompt, correct prompt, local effect. Pass in a parameter, which supports string, other character sequences that inherit CharSequence, and other Object";
         }
     }
 
@@ -291,7 +291,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.setMode(int mode)切换消息显示模式，全局生效。传入1表示为队列消息显示模式，消息将挨个排队显示；传入0表示即时消息，只显示最新的一个";
+            return "toast.setMode(int mode)Switch the message display mode, which takes effect globally. Enter 1 for queue message display mode, and messages will be displayed one by one; enter 0 for instant messages, and only the latest one will be displayed.";
         }
     }
 
@@ -471,7 +471,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.diyShow(view,text,isGlobals,gravity,xoffset,yoffset,horizontalMargin,verticalMargin)自定义View消息提示，全局或局部生效。\n            view为自定义的布局，View类型，为必传内容，View布局内必须包含一个TextView,这个TextView必须拥有Id=0x0102000b;的Id设置\n            text为消息内容，String类型，不传时消息内容由view决定\n            isGlobals是否设置为全局toast都用这个布局，boolean类型，true为全局，false为局部，不传时默认true\n            gravity为显示重心，int类型，不传时默认为Gravity.CENTER\n            xoffset相对于重心位置的水平（屏幕x轴方向）偏移，int类型，不传时默认为0\n            yoffset相对于重心位置的垂直偏移，int类型，不传时默认为0\n            horizontalMargin水平间距，float类型，不传时默认为0\n            verticalMargin垂直间距，float类型，不传时默认为0";
+            return "toast.diyShow(view,text,isGlobals,gravity,xoffset,yoffset,horizontalMargin,verticalMargin)Custom View message prompt, effective globally or locally. \n view is a custom layout, View type, must be passed, the View layout must contain a TextView, this TextView must have an ID setting of Id=0x0102000b;\n text is the message content, String type, if not passed, the message content is determined by the view\n whether isGlobals is set to global toast";
         }
     }
 
@@ -485,7 +485,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.cancel()取消所有消息提示，全局生效";
+            return "toast.cancel()Cancel all message prompts, effective globally";
         }
     }
 
@@ -509,7 +509,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.setStyle(style)设置一个全局生效的消息样式，style为IToastStyle类型或其子类";
+            return "toast.setStyle(style)Set a globally effective message style. The style is of IToastStyle type or its subclass";
         }
     }
 
@@ -523,7 +523,7 @@ public class ToastLib extends TwoArgFunction {
         }
 
         public String d_() {
-            return "toast.setGravity(gravity,xoffset,yoffset,horizontalMargin,verticalMargin)设置一个全局生效的消息显示位置。            gravity为显示重心，int类型，不传时默认为Gravity.CENTER\n            xoffset相对于重心位置的水平（屏幕x轴方向）偏移，int类型，不传时默认为0\n            yoffset相对于重心位置的垂直偏移，int类型，不传时默认为0\n            horizontalMargin水平间距，float类型，不传时默认为0\n            verticalMargin垂直间距，float类型，不传时默认为0";
+            return "toast.setGravity(gravity,xoffset,yoffset,horizontalMargin,verticalMargin)Set a globally effective message display position. gravity is the display center of gravity, int type, defaults to Gravity.CENTER when not passed\n xoffset is the horizontal offset (screen x-axis direction) relative to the center of gravity, int type, defaults to 0 when not passed\n yoffset is the vertical offset relative to the center of gravity, int type, defaults to 0 when not passed\n horizontalMargin is the horizontal offset relative to the center of gravity, int type, defaults to 0 when not passed";
         }
     }
 }
